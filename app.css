@@ -51,7 +51,9 @@ li {
   display: flex;
   align-items: center;
   padding: 10px;
-  border-bottom: 1px solid #ccc;
+  border: 1px solid #acc;
+  border-radius: 10px;
+  background-color: #ccc;
 }
 
 input[type="radio"] {
@@ -60,20 +62,6 @@ input[type="radio"] {
 
 label {
   flex: 1;
-}
-
-.delete-btn {
-  width: 24px;
-  height: 24px;
-  fill: #ccc;
-  cursor: pointer;
-}
-
-.delete-btn:hover {
-  fill: red;
-}
-svg {
-  pointer-events: none;
 }
 
 .img {
