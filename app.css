@@ -8,7 +8,7 @@ body {
 .label {
   font-size: 18px;
   font-weight: bold;
-  color: #fff;
+  color: #000;
 }
 .form-container {
   position: absolute;
@@ -30,7 +30,7 @@ body {
 }
 .todo-container {
   position: absolute;
-  top: 30%; /* adjust the top position to be below the form */
+  top: 50%; /* adjust the top position to be below the form */
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -47,5 +47,36 @@ body {
   );
 }
 
+li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
 
+input[type="radio"] {
+  margin-right: 10px;
+}
 
+label {
+  flex: 1;
+}
+
+.delete-btn {
+  width: 24px;
+  height: 24px;
+  fill: #ccc;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  fill: red;
+}
+svg {
+  pointer-events: none;
+}
+
+.img {
+  height: 5%;
+  width: 5%;
+}
